@@ -1,5 +1,5 @@
 # 5bot
-### Custom bot for [5YLGJJ Discord Server](https://discord.com/invite/hFmuqXM9Jn) made with Lua
+### Custom bot for [5YLGJ Discord Server](https://discord.com/invite/hFmuqXM9Jn) made with Lua
 
 ## Setup
 Install [luvit](https://luvit.io/)
@@ -21,5 +21,5 @@ You can of course change the structure/name/other stuff if you know what you are
 **The main bot will be on the server.**
 
 ## FaQ
-**Q: Why Lua?**
+**Q: Why Lua?** <br>
 A: Lua is a really light-weight, but still powerful language, with a large community, due to it's wide use for modmaking.
