@@ -1,7 +1,6 @@
 local env = require('envVars')
 local discordia = require('discordia')
 local client = discordia.Client()
-require('string')
 
 client:on('ready', function()
 	print('Logged in as '.. client.user.username)

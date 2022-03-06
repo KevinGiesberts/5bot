@@ -17,7 +17,9 @@ return env
 ```
 This file is not provided by default for safety causes.
 
-You can of course change the structure/name/other stuff if you know what you are doing. <br>
+You can of course change the structure/name/other stuff if you know what you are doing. 
+
+To run the bot, go to the source folder, and execute `luvit main.lua` in your CMD/Terminal. <br>
 **The main bot will be on the server.**
 
 ## FaQ
