@@ -1,0 +1,4 @@
+/deps
+src/discordia.log
+src/gateway.json
+src/envVars.lua
