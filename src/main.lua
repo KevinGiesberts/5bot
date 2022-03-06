@@ -71,16 +71,6 @@ client:on('messageCreate', function(message)
                     }
                 }
             end
-
-            if cmd == "" then
-                message:reply {
-                    embed = {
-                        title = "Joined",
-                        description = "161" -- Needs to be webscraped
-                    }
-                }
-            end
-
 	end
 end)
 
