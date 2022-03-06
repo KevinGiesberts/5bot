@@ -2,7 +2,7 @@
 ### Custom bot for [5YLGJ Discord Server](https://discord.com/invite/hFmuqXM9Jn) made with Lua
 
 ## Setup
-Install [luvit](https://luvit.io/)
+Install [luvit](https://luvit.io/) <br>
 Install [Discordia](https://github.com/SinisterRectus/Discordia#installation) (This is the library used for the bot)
 
 ## Self-Hosting
@@ -17,7 +17,7 @@ return env
 ```
 This file is not provided by default for safety causes.
 
-You can of course change the structure/name/other stuff if you know what you are doing.
+You can of course change the structure/name/other stuff if you know what you are doing. <br>
 **The main bot will be on the server.**
 
 ## FaQ
