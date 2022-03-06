@@ -1,8 +1,8 @@
 # 5bot
-### Custom bot for [5YLGJ Discord Server](https://discord.com/invite/hFmuqXM9Jn) made with Lua
+### Custom bot for [5YLJ Discord Server](https://discord.com/invite/hFmuqXM9Jn) made with Lua
 
 ## Setup
-Install [luvit](https://luvit.io/) <br>
+Install [Luvit](https://luvit.io/) <br>
 Install [Discordia](https://github.com/SinisterRectus/Discordia#installation) (This is the library used for the bot)
 
 ## Self-Hosting

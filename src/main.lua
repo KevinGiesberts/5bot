@@ -57,7 +57,7 @@ client:on('messageCreate', function(message)
                 message:reply {
                     embed = {
                         title = "Contribute",
-                        description = "If you want to contribute to the bot, then you can go to the GitHub repo and make a pull request.\n\nhttps://github.com/fl1pnatic/5bot",
+                        description = "If you want to contribute to the bot, then you can go to the GitHub repo and make a fork.\n\nhttps://github.com/fl1pnatic/5bot",
                         color = jamCol
                     }
                 }
