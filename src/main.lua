@@ -33,7 +33,7 @@ client:on('messageCreate', function(message)
                         fields = {
                             {
                                 name = "Commands",
-                                value = "`jamlink` - Get the link to the 5YL Jam\n`help` - Get this message\n`avatar` - Get your own avatar",
+                                value = "`jamlink` - Get the link to the 5YL Jam\n`help` - Get this message\n`avatar` - Get your own avatar\n`contribute` - Learn how you can contribute to the bot\n`info` - Some information about the bot",
                                 inline = true
                             }
                         },
@@ -49,6 +49,25 @@ client:on('messageCreate', function(message)
                         title = "Your Avatar",
                         image = { url = message.author.avatarURL } ,
                         color = jamCol
+                    }
+                }
+            end
+
+            if cmd == 'contribute' then
+                message:reply {
+                    embed = {
+                        title = "Contribute",
+                        description = "If you want to contribute to the bot, then you can go to the GitHub repo and make a pull request.\n\nhttps://github.com/fl1pnatic/5bot",
+                        color = jamCol
+                    }
+                }
+            end
+
+            if cmd == 'info' then
+                message:reply {
+                    embed = {
+                        title = "Info",
+                        description = " - Development started on 3rd March 2022\n- Made using the Lua language and Discordia library\n",
                     }
                 }
             end
